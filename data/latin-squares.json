@@ -1,0 +1,1042 @@
+[
+  {
+    "id": 1,
+    "difficulty": "low",
+    "grid": [
+      [
+        "C",
+        null,
+        null,
+        "A",
+        null
+      ],
+      [
+        "A",
+        null,
+        "?",
+        null,
+        "C"
+      ],
+      [
+        "D",
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      [
+        "E",
+        "C",
+        null,
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        null,
+        "C",
+        null,
+        null
+      ]
+    ],
+    "questionRow": 1,
+    "questionCol": 2,
+    "answer": "D",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "clueCount": 15
+  },
+  {
+    "id": 2,
+    "difficulty": "low",
+    "grid": [
+      [
+        "B",
+        null,
+        null,
+        null,
+        "E"
+      ],
+      [
+        "C",
+        null,
+        null,
+        "D",
+        null
+      ],
+      [
+        "E",
+        "C",
+        "?",
+        "B",
+        "A"
+      ],
+      [
+        null,
+        "E",
+        null,
+        "A",
+        "C"
+      ],
+      [
+        "A",
+        null,
+        "C",
+        "E",
+        "D"
+      ]
+    ],
+    "questionRow": 2,
+    "questionCol": 2,
+    "answer": "D",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "clueCount": 15
+  },
+  {
+    "id": 3,
+    "difficulty": "low",
+    "grid": [
+      [
+        "E",
+        "C",
+        "A",
+        "D",
+        "?"
+      ],
+      [
+        "C",
+        "A",
+        null,
+        "B",
+        null
+      ],
+      [
+        "B",
+        null,
+        "C",
+        "A",
+        null
+      ],
+      [
+        "A",
+        null,
+        null,
+        "E",
+        null
+      ],
+      [
+        null,
+        "B",
+        "E",
+        "C",
+        null
+      ]
+    ],
+    "questionRow": 0,
+    "questionCol": 4,
+    "answer": "B",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "clueCount": 15
+  },
+  {
+    "id": 4,
+    "difficulty": "low",
+    "grid": [
+      [
+        "B",
+        "A",
+        "E",
+        "D",
+        "C"
+      ],
+      [
+        "A",
+        "C",
+        null,
+        "B",
+        null
+      ],
+      [
+        "E",
+        "?",
+        "A",
+        null,
+        "B"
+      ],
+      [
+        "D",
+        null,
+        null,
+        null,
+        "A"
+      ],
+      [
+        "C",
+        null,
+        "B",
+        null,
+        null
+      ]
+    ],
+    "questionRow": 2,
+    "questionCol": 1,
+    "answer": "D",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "clueCount": 15
+  },
+  {
+    "id": 5,
+    "difficulty": "low",
+    "grid": [
+      [
+        null,
+        null,
+        "E",
+        "C",
+        "B"
+      ],
+      [
+        "B",
+        "E",
+        "C",
+        "A",
+        null
+      ],
+      [
+        "D",
+        "C",
+        null,
+        "B",
+        null
+      ],
+      [
+        null,
+        "?",
+        "B",
+        null,
+        "C"
+      ],
+      [
+        "C",
+        null,
+        "D",
+        "E",
+        null
+      ]
+    ],
+    "questionRow": 3,
+    "questionCol": 1,
+    "answer": "A",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "clueCount": 15
+  },
+  {
+    "id": 6,
+    "difficulty": "low",
+    "grid": [
+      [
+        "A",
+        "C",
+        "E",
+        "B",
+        "D"
+      ],
+      [
+        null,
+        "A",
+        null,
+        null,
+        "E"
+      ],
+      [
+        null,
+        null,
+        "C",
+        null,
+        null
+      ],
+      [
+        "B",
+        null,
+        "A",
+        "?",
+        "C"
+      ],
+      [
+        null,
+        "B",
+        "D",
+        "E",
+        "A"
+      ]
+    ],
+    "questionRow": 3,
+    "questionCol": 3,
+    "answer": "D",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "clueCount": 15
+  },
+  {
+    "id": 7,
+    "difficulty": "medium",
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        "B",
+        "E"
+      ],
+      [
+        null,
+        null,
+        "D",
+        null,
+        null
+      ],
+      [
+        "C",
+        null,
+        "A",
+        null,
+        "D"
+      ],
+      [
+        null,
+        null,
+        "?",
+        "C",
+        null
+      ],
+      [
+        null,
+        "E",
+        null,
+        "D",
+        "C"
+      ]
+    ],
+    "questionRow": 3,
+    "questionCol": 2,
+    "answer": "E",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "clueCount": 10
+  },
+  {
+    "id": 8,
+    "difficulty": "medium",
+    "grid": [
+      [
+        null,
+        null,
+        "C",
+        null,
+        null
+      ],
+      [
+        "A",
+        "E",
+        null,
+        "?",
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        "E"
+      ],
+      [
+        "E",
+        "D",
+        null,
+        "C",
+        "B"
+      ],
+      [
+        null,
+        null,
+        null,
+        "B",
+        "A"
+      ]
+    ],
+    "questionRow": 1,
+    "questionCol": 3,
+    "answer": "D",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "clueCount": 10
+  },
+  {
+    "id": 9,
+    "difficulty": "medium",
+    "grid": [
+      [
+        "A",
+        "E",
+        null,
+        "C",
+        null
+      ],
+      [
+        "B",
+        null,
+        "E",
+        null,
+        null
+      ],
+      [
+        null,
+        "?",
+        "A",
+        null,
+        null
+      ],
+      [
+        "E",
+        "D",
+        null,
+        null,
+        null
+      ],
+      [
+        "D",
+        null,
+        "B",
+        null,
+        null
+      ]
+    ],
+    "questionRow": 2,
+    "questionCol": 1,
+    "answer": "B",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "clueCount": 10
+  },
+  {
+    "id": 10,
+    "difficulty": "medium",
+    "grid": [
+      [
+        "E",
+        "C",
+        "A",
+        null,
+        null
+      ],
+      [
+        "A",
+        null,
+        "C",
+        "E",
+        "B"
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        "C"
+      ],
+      [
+        "D",
+        "E",
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        "?"
+      ]
+    ],
+    "questionRow": 4,
+    "questionCol": 4,
+    "answer": "E",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "clueCount": 10
+  },
+  {
+    "id": 11,
+    "difficulty": "medium",
+    "grid": [
+      [
+        null,
+        "B",
+        null,
+        "A",
+        null
+      ],
+      [
+        "D",
+        "E",
+        "A",
+        null,
+        "B"
+      ],
+      [
+        null,
+        null,
+        "B",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        "?",
+        null
+      ],
+      [
+        "E",
+        null,
+        "D",
+        null,
+        "A"
+      ]
+    ],
+    "questionRow": 3,
+    "questionCol": 3,
+    "answer": "D",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "clueCount": 10
+  },
+  {
+    "id": 12,
+    "difficulty": "medium",
+    "grid": [
+      [
+        null,
+        "B",
+        "A",
+        null,
+        null
+      ],
+      [
+        "A",
+        null,
+        "D",
+        null,
+        null
+      ],
+      [
+        null,
+        "C",
+        null,
+        null,
+        null
+      ],
+      [
+        "B",
+        "A",
+        null,
+        null,
+        "D"
+      ],
+      [
+        null,
+        "D",
+        "C",
+        "?",
+        null
+      ]
+    ],
+    "questionRow": 4,
+    "questionCol": 3,
+    "answer": "A",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "clueCount": 10
+  },
+  {
+    "id": 13,
+    "difficulty": "medium",
+    "grid": [
+      [
+        "C",
+        null,
+        "A",
+        "E",
+        null
+      ],
+      [
+        null,
+        null,
+        "E",
+        "D",
+        "C"
+      ],
+      [
+        "B",
+        "E",
+        "C",
+        null,
+        null
+      ],
+      [
+        null,
+        "A",
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        "?",
+        null
+      ]
+    ],
+    "questionRow": 4,
+    "questionCol": 3,
+    "answer": "B",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "clueCount": 10
+  },
+  {
+    "id": 14,
+    "difficulty": "medium",
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        null,
+        "C"
+      ],
+      [
+        "C",
+        "E",
+        null,
+        "D",
+        "B"
+      ],
+      [
+        null,
+        "C",
+        null,
+        "E",
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        "?",
+        "C",
+        "B",
+        "A"
+      ]
+    ],
+    "questionRow": 4,
+    "questionCol": 1,
+    "answer": "D",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "clueCount": 10
+  },
+  {
+    "id": 15,
+    "difficulty": "high",
+    "grid": [
+      [
+        null,
+        "C",
+        null,
+        null,
+        "B"
+      ],
+      [
+        null,
+        null,
+        "A",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        "?",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        "B",
+        null,
+        null
+      ],
+      [
+        "D",
+        null,
+        null,
+        "C",
+        null
+      ]
+    ],
+    "questionRow": 2,
+    "questionCol": 2,
+    "answer": "C",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "clueCount": 6
+  },
+  {
+    "id": 16,
+    "difficulty": "high",
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        "A",
+        null
+      ],
+      [
+        null,
+        null,
+        "C",
+        null,
+        null
+      ],
+      [
+        null,
+        "D",
+        null,
+        null,
+        null
+      ],
+      [
+        "?",
+        "C",
+        "B",
+        null,
+        "D"
+      ]
+    ],
+    "questionRow": 4,
+    "questionCol": 0,
+    "answer": "A",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "clueCount": 6
+  },
+  {
+    "id": 17,
+    "difficulty": "high",
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        "?",
+        null
+      ],
+      [
+        null,
+        null,
+        "C",
+        "A",
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        "D",
+        null
+      ],
+      [
+        "C",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        "E",
+        "C"
+      ]
+    ],
+    "questionRow": 0,
+    "questionCol": 3,
+    "answer": "C",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "clueCount": 6
+  },
+  {
+    "id": 18,
+    "difficulty": "high",
+    "grid": [
+      [
+        null,
+        null,
+        "C",
+        null,
+        "D"
+      ],
+      [
+        null,
+        null,
+        "E",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        "?"
+      ],
+      [
+        null,
+        null,
+        "B",
+        "E",
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        "A"
+      ]
+    ],
+    "questionRow": 2,
+    "questionCol": 4,
+    "answer": "E",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "clueCount": 6
+  },
+  {
+    "id": 19,
+    "difficulty": "high",
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        "E",
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        "D",
+        null
+      ],
+      [
+        null,
+        null,
+        "D",
+        null,
+        null
+      ],
+      [
+        null,
+        "D",
+        null,
+        "A",
+        null
+      ],
+      [
+        "C",
+        null,
+        null,
+        "?",
+        null
+      ]
+    ],
+    "questionRow": 4,
+    "questionCol": 3,
+    "answer": "B",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "clueCount": 6
+  },
+  {
+    "id": 20,
+    "difficulty": "high",
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        "B",
+        null
+      ],
+      [
+        null,
+        null,
+        "E",
+        null,
+        null
+      ],
+      [
+        "C",
+        null,
+        null,
+        null,
+        "E"
+      ],
+      [
+        null,
+        "D",
+        null,
+        "A",
+        null
+      ],
+      [
+        "?",
+        null,
+        "B",
+        null,
+        null
+      ]
+    ],
+    "questionRow": 4,
+    "questionCol": 0,
+    "answer": "D",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "clueCount": 7
+  }
+]

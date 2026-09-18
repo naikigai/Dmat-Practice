@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>dMAT Practice — Unofficial Mock Exam</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div class="landing">
+
+  <div class="landing-header">
+    <svg class="landing-logo" viewBox="0 0 40 40" aria-hidden="true">
+      <rect width="40" height="40" rx="8" fill="#9c1457"></rect>
+      <path d="M20 4 L36 20 L20 36 L4 20 Z" fill="#c81b6b" opacity="0.6"></path>
+    </svg>
+    <div>
+      <h1>dMAT Practice</h1>
+      <span class="brand-sub">An unofficial, open-source mock exam</span>
+    </div>
+  </div>
+
+  <p class="landing-tagline">
+    Practice the format of the digital Master Test (dMAT) — the study aptitude test used by
+    German universities to admit international applicants to Master's programmes. Timed,
+    single-choice exercises modeled on the official Core Module and Subject Module structure.
+  </p>
+
+  <div class="disclaimer">
+    <strong>Not affiliated with g.a.s.t. or dMAT.</strong> This is an independent, open-source
+    practice tool built from the publicly available dMAT preparatory materials
+    (<a href="https://www.d-mat.de/en/" target="_blank" rel="noopener">d-mat.de</a>). All puzzles
+    here are freshly generated, original content — nothing is copied from the official materials.
+    No accounts, no tracking, no server: everything runs in your browser and nothing is saved
+    beyond your current tab.
+  </div>
+
+  <div class="module-section-title">Core Module — 90 minutes total</div>
+  <div class="module-grid">
+
+    <div class="module-card">
+      <h3>Latin Squares</h3>
+      <p>
+        Fill in the missing letter in a 5×5 grid where each letter appears exactly once per row
+        and column. Sometimes you'll need to deduce other cells first.
+      </p>
+      <div class="module-meta">
+        <span>⏱ 25 minutes</span>
+        <span>🧩 20 questions</span>
+      </div>
+      <a class="btn btn-primary" href="latin-squares.html">Start subtest</a>
+    </div>
+
+    <div class="module-card disabled">
+      <h3>Figure Sequences <span class="badge-soon">Soon</span></h3>
+      <p>
+        Identify the logical pattern in a series of matrices and determine the next two in the
+        sequence.
+      </p>
+      <div class="module-meta">
+        <span>⏱ 25 minutes</span>
+        <span>🧩 20 questions</span>
+      </div>
+      <span class="btn btn-disabled">Coming soon</span>
+    </div>
+
+    <div class="module-card disabled">
+      <h3>Mathematical Equations <span class="badge-soon">Soon</span></h3>
+      <p>
+        Solve systems of equations to find the integer value each letter represents.
+      </p>
+      <div class="module-meta">
+        <span>⏱ 25 minutes</span>
+        <span>🧩 20 questions</span>
+      </div>
+      <span class="btn btn-disabled">Coming soon</span>
+    </div>
+
+  </div>
+
+  <div class="module-section-title">Subject Module — 90 minutes total</div>
+  <div class="module-grid">
+    <div class="module-card disabled">
+      <h3>General Academic Module <span class="badge-soon">Soon</span></h3>
+      <p>
+        Reading-based single-choice questions spanning mathematics, natural sciences,
+        engineering, business, economics and the humanities.
+      </p>
+      <div class="module-meta">
+        <span>⏱ 90 minutes</span>
+      </div>
+      <span class="btn btn-disabled">Coming soon</span>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>
+      Open source — contributions welcome. Puzzle generation logic lives in
+      <code>scripts/generate-latin-squares.js</code>. Built for personal exam prep, shared in
+      case it helps others preparing for the dMAT.
+    </p>
+  </footer>
+
+</div>
+</body>
+</html>

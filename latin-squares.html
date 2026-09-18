@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Latin Squares — dMAT Practice</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div class="exam-shell">
+
+  <header class="exam-topbar">
+    <div class="timer-box" id="timerBox">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="9"></circle>
+        <path d="M12 7v5l3 3"></path>
+      </svg>
+      <span id="timerDisplay">25:00</span>
+    </div>
+
+    <div class="module-progress">
+      <div class="segment-dashes">
+        <span class="dash done"></span>
+        <span class="dash done"></span>
+        <span class="dash active"></span>
+      </div>
+      <div class="module-label">
+        <strong>Core Module</strong>
+        <div>Latin Squares</div>
+      </div>
+    </div>
+
+    <div class="module-progress">
+      <div class="segment-dashes">
+        <span class="dash"></span>
+      </div>
+      <div class="module-label muted">
+        <strong>Subject Module</strong>
+        <div>General Academic Module</div>
+      </div>
+    </div>
+
+    <button class="end-subtest-btn" id="endSubtestBtn">End subtest</button>
+  </header>
+
+  <div class="exam-toolbar">
+    <div class="toolbar-left">
+      <div class="question-timer" id="questionTimer" title="Practice aid: tracks time spent on this question only. Doesn't affect your score or the main timer.">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9"></circle>
+          <path d="M12 7v5l3 3"></path>
+        </svg>
+        <span id="questionTimerDisplay">1:15</span>
+      </div>
+    </div>
+    <button class="chevron-btn" id="toggleInstructions" aria-expanded="false" aria-controls="instructionsPanel" title="Show instructions">▾</button>
+    <div class="toolbar-right">
+      <button class="icon-btn" id="instructionsIconBtn" title="Instructions" aria-label="Instructions">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="4" y="3" width="16" height="18" rx="1"></rect>
+          <path d="M8 8h8M8 12h8M8 16h5"></path>
+        </svg>
+      </button>
+      <div class="font-size-group" role="group" aria-label="Text size">
+        <button data-size="small" aria-label="Small text">A</button>
+        <button data-size="medium" class="active" aria-label="Medium text">A</button>
+        <button data-size="large" aria-label="Large text">A</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="instructions-panel hidden" id="instructionsPanel">
+    <strong>Reminder:</strong> Each letter can only appear once in each row and column of the 5×5 grid.
+    Only the letters shown in the answer column can appear in the grid. Determine which letter belongs
+    in the box marked with a red <strong>?</strong>. You may need to work out other fields in your head first.
+    Click a letter in the answer column to select it. You have 25 minutes for 20 tasks — if you're unsure,
+    make your best guess. Notes are not permitted in the real exam.
+  </div>
+
+  <div class="question-indicator" id="questionIndicator">Question 1 of 20</div>
+
+  <main class="question-area">
+    <div class="panel">
+      <h2>square</h2>
+      <div class="latin-grid" id="latinGrid" role="grid" aria-label="Latin square puzzle"></div>
+    </div>
+    <div class="panel answer-panel">
+      <h2>answer column</h2>
+      <div class="answer-column" id="answerColumn" role="listbox" aria-label="Answer options"></div>
+    </div>
+  </main>
+
+  <footer class="exam-footer">
+    <div class="footer-brand">
+      <svg width="28" height="28" viewBox="0 0 40 40" aria-hidden="true">
+        <rect width="40" height="40" rx="6" fill="#9c1457"></rect>
+        <path d="M20 4 L36 20 L20 36 L4 20 Z" fill="#c81b6b" opacity="0.6"></path>
+      </svg>
+      <div class="brand-text">dMAT<small>Digitaler Mastertest (practice)</small></div>
+    </div>
+
+    <button class="nav-btn gray" id="saveBackBtn">← Save and back</button>
+
+    <div class="question-pills" id="questionPills"></div>
+
+    <button class="nav-btn pink" id="saveForwardBtn">Save and forward →</button>
+  </footer>
+
+</div>
+
+<!-- Confirm end-subtest modal -->
+<div class="modal-overlay hidden" id="confirmModal">
+  <div class="modal-box">
+    <h2>End subtest?</h2>
+    <p>You still have time remaining. Once you end the subtest, you won't be able to change your answers.</p>
+    <div class="modal-actions">
+      <button class="btn btn-secondary" id="cancelEndBtn">Keep working</button>
+      <button class="btn btn-primary" id="confirmEndBtn">End subtest</button>
+    </div>
+  </div>
+</div>
+
+<!-- Results modal -->
+<div class="modal-overlay hidden" id="resultsModal">
+  <div class="modal-box">
+    <h2 id="resultsHeading">Subtest complete</h2>
+    <p id="resultsSubheading">Here's how you did on Latin Squares.</p>
+    <div class="score-summary">
+      <div class="score-stat">
+        <span class="value" id="scoreCorrect">0</span>
+        <span class="label">Correct</span>
+      </div>
+      <div class="score-stat">
+        <span class="value" id="scoreAnswered">0</span>
+        <span class="label">Answered</span>
+      </div>
+      <div class="score-stat">
+        <span class="value" id="scoreTime">0:00</span>
+        <span class="label">Time used</span>
+      </div>
+    </div>
+    <div class="modal-actions">
+      <button class="btn btn-secondary" id="reviewBtn">Review answers</button>
+      <a class="btn btn-primary" href="index.html">Back to home</a>
+    </div>
+  </div>
+</div>
+
+<script src="js/latin-squares-data.js"></script>
+<script src="js/latin-squares.js"></script>
+</body>
+</html>
